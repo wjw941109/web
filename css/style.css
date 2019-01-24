@@ -1,0 +1,144 @@
+/*重置样式*/
+
+body, div, p, ul, ol, dl, dt, dd, li, form, input, table, th, td, img, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 12px;
+    font-style: normal;
+    color: #000;
+    font-family: 'Microsoft Yahei', '微软雅黑', 'Simsun', '宋体', 'Arial', sans-serif;
+}
+
+p{line-height: 1.6}
+h1,h2,h3{line-height: 2}
+em, b, i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #45B6F7;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+/*公共属性*/
+
+.hide {
+    display: none;
+}
+
+.flt {
+    float: left;
+}
+
+.frt {
+    float: right;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container{width: 1000px;height: 98px;margin-left: auto;margin-right: auto;}
+.logo{background:url(images/logo.jpg);width: 257px;height: 55px;margin-top:21.5px;}
+nav a{display: inline-block;padding: 37px 18.5px;font-size: 16px;color: #6e6e6e}
+nav a:last-child{padding-right: 0}
+nav .active{border-bottom:3px solid #00a1f1;color: #00a1f1}
+
+
+.focusbox{position: relative;height: 500px;overflow: hidden;width: 100%}
+.banner-div{width: 400%}
+.banner-div a{float: left;}
+
+.banner{display: inline-block;position: relative;height: 500px;}
+.banner .caption{position: absolute;left:45%;top: 150px;text-align: center;}
+.banner .title{font-size: 34px;padding: 10px; color: #fff;letter-spacing:15px;}
+.banner .en-title{font-size: 20px;color: #fefbf0;}
+.focusbox ul{position: absolute;left: 0;right: 0;bottom: 5px;text-align: center;}
+.focusbox ul li{width: 12px;height: 12px;border-radius: 50%;background:#fff;display: inline-block;margin: 0 2px;}
+.focusbox ul .on{background: red}
+
+.main{height: 348px;}
+.main a{float: left;width: 170px;height: 283px;text-align: center;padding-top: 65px;margin-left: 37.5px;}
+.main a:nth-child(5n+1){margin-left: 0}
+.main a .title{font-size: 16px;color: #000;margin-top:15px;margin-bottom: 10px;}
+.main a .description{font-size: 12px;line-height: 1.5;color: #666;}
+
+.news .news-left{width: 700px;height: 280px;border: 1px solid #e5e5e5}
+.news-left .about-us{width: 280px;height: 280px;margin-left: 52.5px;}
+.news-left .about-us h1{padding-top: 40px;padding-bottom:15px;font-weight: normal;}
+.news-left .about-us .description{line-height: 1.6;margin-bottom: 30px;color: #999;}
+.news-left .about-us .details{border: 1px solid #e5e5e5;font-size: 14px;width: 118px;height: 33px;text-align: center;line-height: 33px;color: #959595;}
+
+.news{height: 280px;margin-bottom: 60px;}
+.news .news-right{width: 280px;height: 280px;border: 1px solid #e5e5e5}
+.news-right .company{height: 54px;background: #f7f7f7;border-bottom: 1px solid #e5e5e5}
+.company h2{font-weight: normal;padding: 9px 20px;}
+.company span{font-size: 16px;padding: 16.5px 20px;color: #939393}
+.notice li{margin: 20px 0px 20px 15px;}
+.notice li:first-child{color: #00a1f1;margin-top: 35px;}
+
+.choice{height: 500px;background: url(../images/7.jpg);}
+.choice-us{font-size: 28px;color: #fff;text-align: center;padding-top: 80px;margin-bottom: 74px;}
+.icon{height:180px;width: 1000px;}
+.icon li{float: left;width: 200px;text-align: center;margin-right: 65px;}
+.icon li:last-child{margin-right: 0}
+.icon li .icon-title{font-size: 17px;color: #e1a8a8;margin-top: 15px;}
+
+.content-all{height: 600px;margin-top: 60px;margin-bottom: }
+.product{height: 286px;border: 1px solid #e6e6e6;}
+.product-title{height: 54px;border-bottom: 1px solid #e6e6e6;background: #f7f7f7;}
+.product-title .product-show{font-size: 18px;padding:15px 20px}
+.product-title .more{font-size: 16px;color: #a8a8a8;padding: 16.5px 19px;}
+
+.product-ul{margin-top: 5px;}
+.product-ul li{width: 318px;height: 73px;margin-left: 14px;margin-top:25px;float: left;}
+.content{width: 172px;margin-left: 16px;}
+.content .title{font-size: 14px;margin-bottom: 12px;}
+.content a{display: inline-block;line-height: 24px}
+
+.case{height: 324px;}
+.case-show{font-size: 18px;padding:40px 0 42px 22px;}
+.case-img li{float: left;width: 174px;height: 44px;margin: 0 38px 52px;text-align: center;}
+
+.footer{height: 326px;background: #f2f2f2;border: 1px solid #e6e6e6;}
+.footer ul{height: 252px;border-bottom: 1px solid #e6e6e6;}
+.footer ul li{float: left;width: 180px;margin-right: 5px;}
+.footer ul li.word{width: 260px;margin-right: 0;}
+
+.footer ul li h2{font-weight: normal;color: #4d4d4d;margin: 40px 0 5px;}
+.footer ul li a{display:block;font-size: 14px;color: #929292;margin: 12px 0;}
+.footer ul li a.num{color: #a72323;font-size: 32px;font-weight: bold;margin:-6px 0;}
+
+.footer .ending{text-align: center;line-height: 70px;color: #808080}
